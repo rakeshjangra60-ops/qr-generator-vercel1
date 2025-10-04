@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/qr.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/qr", "dest": "/api/qr.js" }
+  ]
+}
